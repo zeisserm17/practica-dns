@@ -1,0 +1,7 @@
+zone "practicadns.com" {
+	type master;
+	file "/var/lib/bind/db.practicadns.com";
+	allow-query {
+		any;
+		};
+	};
