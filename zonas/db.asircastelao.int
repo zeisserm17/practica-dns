@@ -1,0 +1,12 @@
+$TTL 38400	
+@		IN SOA	ns.practicadns.int. ericbesada.gmail.com (
+				2022051001   ; serial
+				3600      ; refresh (3m)
+				600       ; retry (1h)
+				86400     ; expire (1w)
+				600      ; minimum (10h 40m)
+				)
+@		IN NS	ns.practicadns.com.
+ns		IN A 	10.1.0.254
+test	IN CNAME	10.1.0.2
+@	IN TXT    HOLA MUNDO
